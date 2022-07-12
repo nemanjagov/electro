@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box;
+}
+
+.top-header {
+  height: 40px;
+  background-color: #1e1f29;
+  font-size: small;
+  font-weight: bold;
+}
+
+.corewidth {
+  width: 1100px;
+  margin: auto;
+}
+
+.top {
+  color: white;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
+.top:hover {
+  color: #d10024;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.main-header {
+  height: 100px;
+  background-color: #15161d;
+  border-bottom: 3px solid #d10024;
+}
+
+.red {
+  color: #d10024;
+}
