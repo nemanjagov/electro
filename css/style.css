@@ -43,3 +43,14 @@
 .red {
   color: #d10024;
 }
+
+.header-side {
+  color: white;
+  font-size: larger;
+  width: 25%;
+}
+
+.header-middle {
+  width: 50%;
+  position: relative;
+}
