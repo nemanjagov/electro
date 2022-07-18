@@ -16,13 +16,15 @@
   margin: auto;
 }
 
-.top {
+.h-links {
   color: white;
+  margin-right: 5px;
   padding-top: 10px;
   padding-right: 10px;
+  list-style-type: none;
 }
 
-.top:hover {
+.fa {
   color: #d10024;
 }
 
