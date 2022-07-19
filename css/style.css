@@ -18,14 +18,10 @@
 
 .h-links {
   color: white;
-  margin-right: 5px;
-  padding-top: 10px;
-  padding-right: 10px;
+  margin-top: 10px;
+  padding: 0;
   list-style-type: none;
-}
-
-.fa {
-  color: #d10024;
+  width: 50%;
 }
 
 .left {
@@ -34,6 +30,24 @@
 
 .right {
   float: right;
+}
+
+.inlineblock {
+  display: inline-block;
+}
+
+.alink {
+  display: block;
+  padding-right: 10px;
+}
+
+.fa {
+  color: #d10024;
+  padding-right: 5px;
+}
+
+.alink:hover {
+  color: #d10024;
 }
 
 .main-header {
@@ -50,9 +64,42 @@
   color: white;
   font-size: larger;
   width: 25%;
+  border: 1px solid red;
 }
 
 .header-middle {
   width: 50%;
   position: relative;
+  border: 1px solid red;
+  padding: 20px 0 20px 0;
+}
+
+.input-select {
+  border-radius: 25px 0 0 25px;
+  padding: 0px 15px;
+}
+
+.input {
+  margin-right: -5px;
+  height: 40px;
+  border: 1px solid #ebeef3;
+}
+
+.input-select {
+  border-radius: 25px 0 0 25px;
+  padding: 0px 15px;
+}
+
+.input-search {
+  width: 50%;
+}
+
+.btn-search {
+  background-color: #d10024;
+  color: white;
+  height: 40px;
+  width: 90px;
+  font-weight: 700;
+  border: none;
+  border-radius: 0 25px 25px 0;
 }
