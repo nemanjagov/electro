@@ -103,3 +103,11 @@
   border: none;
   border-radius: 0 25px 25px 0;
 }
+
+.header-wishcart {
+  display: inline-block;
+  width: 50%;
+  font-size: small;
+  font-weight: 700;
+  padding: 20px 0 20px 20px;
+}
